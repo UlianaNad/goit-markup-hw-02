@@ -44,7 +44,7 @@ nav .header-text{
     color: var(--navy-blue);
 }
 .studio-color{
- color: var(--navy-blue);
+    color: var(--navy-blue);
 }
 .studio-color-footer{
     color: var(--cloud);
@@ -73,6 +73,8 @@ nav .header-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.address{
     font-style: normal;
 }
 .auth-nav a:hover{
@@ -108,6 +110,7 @@ nav .header-text{
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    font-family: "Roboto", sans-serif;
 }
 
 .button.primary{
