@@ -1,0 +1,129 @@
+:root{
+    --primary-text-color: #2E2F42;
+    --secondary-text-color: #434455;
+    --blue-text-color: #4D5AE5;
+    --blue-button-color: #404BBF;
+    --primary-bg-color:#F4F4FD;
+    --button-secondary-color: #E7E9FC;
+    --white: #ffffff;
+}
+body{
+    background-color:var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* portfolio styles */
+.web-color{
+    color: var(--blue-text-color);
+}
+.site-nav a{
+    color:var(--primary-text-color);
+}
+.site-nav .link{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--blue-text-color);
+}
+
+.auth-nav a{
+    color:var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+}
+.section-title{
+    color: var(--primary-text-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    
+}
+.portfolio-title{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.portfolio-description{
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.button{
+    color: var(--white);
+    background-color: var(--primary-bg-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding: 12px 24px 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button.primary{
+    color: var(--button-secondary-color);
+    background-color: var(--blue-button-color);
+    border-color: transparent;
+    border: 1px;
+}
+.button.order:hover{
+    color: var(--blue-text-color);
+    background-color: var(--primary-bg-color);
+    border-color: var(--button-secondary-color);
+    border: 1px;
+}
+.button.secondary{
+    color: var(--blue-text-color);
+    background-color: var(--primary-bg-color);
+    border-color: var(--button-secondary-color);
+    border: 1px;
+}
+.button.secondary:hover{
+    color: var(--button-secondary-color);
+    background-color: var(--blue-button-color);
+    border-color: transparent;
+    border: 1px;
+}
+
+
+/* studio styles */
+.crew .name{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.crew .position{
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.section .title{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.section .description{
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
