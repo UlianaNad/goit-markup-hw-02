@@ -1,15 +1,15 @@
 :root{
-    --primary-text-color: #2E2F42;
-    --secondary-text-color: #434455;
-    --blue-text-color: #4D5AE5;
-    --blue-button-color: #404BBF;
-    --primary-bg-color:#F4F4FD;
-    --button-secondary-color: #E7E9FC;
+    --navy-blue: #2E2F42;
+    --slate: #434455;
+    --iris: #4D5AE5;
+    --ocean: #404BBF;
+    --cloud:#F4F4FD;
+    --cornflower: #E7E9FC;
     --white: #ffffff;
 }
 body{
-    background-color:var(--primary-white-color);
-    color: var(--primary-text-color);
+    background: var(--white);
+    color: var(--navy-blue);
     font-family: 'Roboto', sans-serif;
 }
 ul{
@@ -18,13 +18,36 @@ ul{
 a{
     text-decoration: none;
 }
+footer{
+    background-color: var(--navy-blue);
+}
+footer .slogan{
+    color: var(--cloud);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+footer .footer-text{
+    color: var(--cloud);
+
+}
+.logo{
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 800;
+}
+nav .header-text{
+    color: var(--navy-blue);
+}
+.web-color{
+    color: var(--iris);
+}
 
 /* portfolio styles */
-.web-color{
-    color: var(--blue-text-color);
-}
+
 .site-nav a{
-    color:var(--primary-text-color);
+    color:var(--navy-blue);
 }
 .site-nav .link{
     font-size: 16px;
@@ -34,20 +57,21 @@ a{
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
-    color: var(--blue-text-color);
+    color: var(--iris);
 }
 
 .auth-nav a{
-    color:var(--secondary-text-color);
+    color:var(--slate);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal;
 }
 .auth-nav a:hover{
-    color:var(--blue-text-color);
+    color:var(--iris);
 }
 .section-title{
-    color: var(--primary-text-color);
+    color: var(--navy-blue);
     font-size: 36px;
     font-weight: 700;
     line-height: 1.1;
@@ -55,21 +79,21 @@ a{
     
 }
 .portfolio-title{
-    color: var(--primary-text-color);
+    color: var(--navy-blue);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 .portfolio-description{
-    color: var(--secondary-text-color);
+    color: var(--slate);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .button{
     color: var(--white);
-    background-color: var(--primary-bg-color);
+    background-color: var(--cloud);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -80,26 +104,26 @@ a{
 }
 
 .button.primary{
-    color: var(--button-secondary-color);
-    background-color: var(--blue-button-color);
+    color: var(--cloud);
+    background-color: var(--ocean);
     border-color: transparent;
     border: 1px;
 }
 .button.order:hover{
-    color: var(--blue-text-color);
-    background-color: var(--primary-bg-color);
-    border-color: var(--button-secondary-color);
+    color: var(--iris);
+    background: var(--cloud);
+    border-color: var(--cornflower);
     border: 1px;
 }
 .button.secondary{
-    color: var(--blue-text-color);
-    background-color: var(--primary-bg-color);
-    border-color: var(--button-secondary-color);
+    color: var(--iris);
+    background: var(--cloud);
+    border-color: var(--cornflower);
     border: 1px;
 }
 .button.secondary:hover{
-    color: var(--button-secondary-color);
-    background-color: var(--blue-button-color);
+    color: var(--cornflower);
+    background: var(--ocean);
     border-color: transparent;
     border: 1px;
 }
@@ -113,7 +137,7 @@ a{
     letter-spacing: 0.02em;
 }
 .crew .position{
-    color: var(--secondary-text-color);
+    color: var(--slate);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -125,8 +149,19 @@ a{
     letter-spacing: 0.02em;
 }
 .section .description{
-    color: var(--secondary-text-color);
+    color: var(--slate);
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.solutions{
+    background: var(--navy-blue);
+    
+}
+.section-title-block{
+    color: var(--white);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.1;
     letter-spacing: 0.02em;
 }
