@@ -110,7 +110,7 @@ nav .header-text{
     color: var(--navy-blue);
 }
 .button{
-    color: var(--white);
+    color: var(--iris);
     background-color: var(--cloud);
     font-size: 16px;
     font-weight: 500;
@@ -119,13 +119,17 @@ nav .header-text{
     cursor: pointer;
     font-family: "Roboto", sans-serif;
 }
-
+.button:hover,
+.button:hover{
+    color: var(--white);
+}
 .button.primary{
     color: var(--cloud);
     background-color: var(--ocean);
     /* border-color: transparent; */
 }
-.button.order:hover{
+.button.order:hover,
+.button.order:focus{
     color: var(--iris);
     background-color: var(--cloud);
     /* border-color: var(--cornflower); */
@@ -135,7 +139,8 @@ nav .header-text{
     background-color: var(--cloud);
     /* border-color: var(--cornflower);*/
 } 
-.button.secondary:hover{
+.button.secondary:hover,
+.button.secondary:focus{
     color: var(--cornflower);
     background-color: var(--ocean);
     /* border-color: transparent; */
