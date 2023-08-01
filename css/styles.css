@@ -65,7 +65,11 @@ nav .header-text{
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
-    color: var(--iris);
+    color: var(--ocean);
+}
+.address .link:hover,
+.address .link:focus{
+    color: var(--ocean);
 }
 
 .auth-nav a{
@@ -116,27 +120,31 @@ nav .header-text{
 .button.primary{
     color: var(--cloud);
     background-color: var(--ocean);
-    border-color: transparent;
+    /* border-color: transparent; */
 }
 .button.order:hover{
     color: var(--iris);
     background-color: var(--cloud);
-    border-color: var(--cornflower);
+    /* border-color: var(--cornflower); */
 }
 .button.secondary{
     color: var(--iris);
     background-color: var(--cloud);
-    border-color: var(--cornflower);
-}
+    /* border-color: var(--cornflower);*/
+} 
 .button.secondary:hover{
     color: var(--cornflower);
     background-color: var(--ocean);
-    border-color: transparent;
+    /* border-color: transparent; */
 }
 .button.order{
     font-family: "Roboto", sans-serif;
     background-color: var(--iris);
     color: var(--white);
+}
+.button.order:hover,
+.button.order:focus{
+    background-color: var(--ocean);
 }
 
 .team-block{
