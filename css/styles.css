@@ -106,6 +106,9 @@ nav .header-text{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.section .title{
+    color: var(--navy-blue);
+}
 .button{
     color: var(--white);
     background-color: var(--cloud);
