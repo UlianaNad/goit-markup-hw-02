@@ -159,6 +159,7 @@ nav .header-text{
 
 /* studio styles */
 .crew .name{
+    color: var(--navy-blue);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
