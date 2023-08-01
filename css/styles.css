@@ -97,6 +97,10 @@ nav .header-text{
 .section .title{
     color: var(--navy-blue);
 }
+.section .button{
+    color: #ffffff;
+    background-color: var(--iris);
+}
 .button{
     color: var(--iris);
     background-color: var(--cloud);
@@ -112,38 +116,6 @@ nav .header-text{
     color: var(--white);
     background-color: var(--ocean);
 }
-/* .primary{
-    color: var(--cloud);
-    background-color: var(--ocean);
-    border-color: transparent;
-} */
-.button.order:hover,
-.button.order:focus{
-    color: var(--iris);
-    background-color: var(--cloud);
-    /* border-color: var(--cornflower); */
-}
-/* .button.secondary{
-    color: var(--iris);
-    background-color: var(--cloud);
-    border-color: var(--cornflower);
-}  */
-/* .button.secondary:hover,
-.button.secondary:focus{
-    color: var(--cornflower);
-    background-color: var(--ocean);
-    border-color: transparent; 
-}
-.button.order{
-    font-family: "Roboto", sans-serif;
-    background-color: var(--iris);
-    color: var(--white);
-}
-.button.order:hover,
-.button.order:focus{
-    background-color: var(--ocean);
-} */
-
 .team-block{
     background-color: var(--cloud);
 }
