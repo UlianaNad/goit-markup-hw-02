@@ -120,30 +120,31 @@ nav .header-text{
     font-family: "Roboto", sans-serif;
 }
 .button:hover,
-.button:hover{
+.button:focus{
     color: var(--white);
+    background-color: var(--ocean);
 }
-.button.primary{
+/* .primary{
     color: var(--cloud);
     background-color: var(--ocean);
-    /* border-color: transparent; */
-}
+    border-color: transparent;
+} */
 .button.order:hover,
 .button.order:focus{
     color: var(--iris);
     background-color: var(--cloud);
     /* border-color: var(--cornflower); */
 }
-.button.secondary{
+/* .button.secondary{
     color: var(--iris);
     background-color: var(--cloud);
-    /* border-color: var(--cornflower);*/
-} 
-.button.secondary:hover,
+    border-color: var(--cornflower);
+}  */
+/* .button.secondary:hover,
 .button.secondary:focus{
     color: var(--cornflower);
     background-color: var(--ocean);
-    /* border-color: transparent; */
+    border-color: transparent; 
 }
 .button.order{
     font-family: "Roboto", sans-serif;
@@ -153,7 +154,7 @@ nav .header-text{
 .button.order:hover,
 .button.order:focus{
     background-color: var(--ocean);
-}
+} */
 
 .team-block{
     background-color: var(--cloud);
